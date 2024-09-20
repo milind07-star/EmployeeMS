@@ -1,0 +1,39 @@
+#content {
+  width: 200px;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+}
+.header {
+  width: 80.2vw !important;
+}
+
+
+/* Dashboard.css */
+
+#content {
+  transition: all 0.3s ease;
+}
+
+.sidebar-collapsed #content {
+  display: none; /* Hide sidebar content when collapsed */
+}
+
+.sidebar-collapsed .header {
+  margin-left: 0; /* Adjust header margin when sidebar is collapsed */
+}
+
+.header {
+  transition: margin-left 0.3s ease;
+}
+
+/* Add media query for responsive behavior */
+@media (min-width: 768px) {
+  .sidebar-collapsed {
+    .header {
+      margin-left: 250px; /* Adjust based on sidebar width */
+    }
+  }
+}

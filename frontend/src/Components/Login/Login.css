@@ -1,0 +1,119 @@
+/* Style for the login container */
+.login-container,
+.register-container {
+  /* background: rgb(142, 101, 203); */
+  background-image: url("../../assets/6909.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif; /* Sets a clean font */
+}
+
+/* Style for the form element */
+form {
+  background-color: rgba(
+    146,
+    192,
+    38,
+    0.256
+  ); /* Semi-transparent white background */
+
+  padding: 20px; /* Padding inside the form */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 90%;
+  max-width: 400px; /* Maximum width of the form */
+  text-align: center; /* Centers text inside the form */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  /* backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5px); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 5px solid #031658;
+  border-left: 5px solid #031658;
+}
+
+/* Style for the headings */
+h1 {
+  color: #333; /* Darker color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2rem; /* Larger font size for the heading */
+  font-weight: 600; /* Bold heading */
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="password"] {
+  color: black;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 22px); /* Full width with padding adjustments */
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Light border */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  font-size: 1rem; /* Font size */
+  /* border-bottom: 1px solid #ddd; */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid #000000c4;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background: linear-gradient(
+    89deg,
+    rgb(21, 74, 189) 0.1%,
+    rgb(26, 138, 211) 51.5%,
+    rgb(72, 177, 234) 100.2%
+  ); /* Blue background color */
+  color: white; /* White text color */
+  padding: 12px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  border: none;
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Optional: Add focus effect on inputs */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none; /* Removes default outline */
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue shadow on focus */
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+
+  margin-bottom: 20px;
+  color: #fff !important;
+
+  text-align: center;
+  border-radius: 5px;
+}
+
+.register-link {
+  color: #5d71c7 !important;
+  text-decoration: none; /* Optional: Remove underline */
+  font-weight: 600 !important;
+}
+
+.register-link:hover {
+  color: #031658 !important; /* Optional: Change color on hover */
+}

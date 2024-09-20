@@ -1,0 +1,87 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* .table{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+} */
+
+.action {
+  display: flex;
+  flex-direction: row;
+}
+.action-button1 {
+  background-color: #bfdbfe;
+  background-size: cover;
+  background-position: center;
+  height: 35px; /* Adjust height */
+  width: 35px; /* Adjust width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Optional: make buttons circular */
+  border: none;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.action-button1 .icon {
+  color: #1e40af;
+}
+
+.action-button2 {
+  background-color: #fcb5b5;
+  background-size: cover;
+  background-position: center;
+  height: 35px; /* Adjust height */
+  width: 35px; /* Adjust width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Optional: make buttons circular */
+  border: none;
+  padding: 8px;
+}
+
+.action-button2 .icon {
+  color: #c8102e;
+}
+
+.action-button3  {
+  background-color: #bfdbfe;
+  background-size: cover;
+  background-position: center;
+  height: 35px; /* Adjust height */
+  width: 35px; /* Adjust width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Optional: make buttons circular */
+  border: none;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.action-button3 .icon {
+  color: #1e40af;
+}
+
+#admin {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+}
+
+#employee {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+#salary {
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+

@@ -1,0 +1,80 @@
+.start {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: rgb(142, 101, 203); */
+  background-image: url("../../assets/6909.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.start-content {
+  background-color: aquamarine;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #fff; /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the form */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 90%;
+  max-width: 400px; /* Maximum width of the form */
+  text-align: center; /* Centers text inside the form */
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  /* backdrop-filter: blur(1px); */
+  /* -webkit-backdrop-filter: blur(5px); */
+  border-top: 5px solid #031658;
+  border-bottom: 5px solid #031658;
+  position: absolute;
+  top: 50px;
+}
+
+.link a {
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 25px 14px;
+  background: linear-gradient(
+    89deg,
+    rgb(21, 74, 189) 0.1%,
+    rgb(26, 138, 211) 51.5%,
+    rgb(72, 177, 234) 100.2%
+  );
+  padding: 10px;
+  color: #fff !important;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.icon-start{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px ; 
+  top: -12px;
+  left: -12px;
+  background: #021154;
+}
+
+.admin:hover{
+  background: #5d71c7;
+  transform: translateY(-4px);
+  transition: 0.3s ease-in-out;
+}
+
+.employee:hover{
+  background: #5d71c7;
+  transform:translateY(-4px);
+  transition: 0.3s ease-in-out;
+}
